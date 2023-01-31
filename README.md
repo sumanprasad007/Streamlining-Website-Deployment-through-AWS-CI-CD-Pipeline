@@ -9,7 +9,7 @@ The header includes a logo, a title, and a brief description of the website. The
 
 To streamline the deployment of this website, you can use AWS CI/CD pipeline. AWS CI/CD pipeline is a suite of tools provided by Amazon Web Services that helps you automate the process of building, testing, and deploying your code.
 
-Here's how you can set up the pipeline:
+# Here's how you can set up the pipeline:
 
 Store the website code in an AWS CodeCommit repository.
 Use AWS CodeBuild to build and test the code.
