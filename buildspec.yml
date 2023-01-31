@@ -1,13 +1,14 @@
+#Defined the version of buildspec file
 version: 0.2
 
 phases:
   build:
     commands:
-    - echo "This is build phase... Zipping my webpage"
+    - echo "Building the phase... Zipping the website"
  
   post_build:
     commands:
-    - echo "Deployed to S3"
+    - echo "Deploying to S3 Bucket"
 artifacts:
   files:
     - '**/*'
