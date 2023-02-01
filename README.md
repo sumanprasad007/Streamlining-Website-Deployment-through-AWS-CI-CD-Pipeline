@@ -1,6 +1,7 @@
 # Streamlining Website Deployment through AWS CI/CD Pipeline
+![Architecture of AWS CodePiple for Website deployed in S3](https://user-images.githubusercontent.com/55047333/216131323-62a967fc-0c65-4394-9864-7ec6b3de025d.png)
 
-![image](https://user-images.githubusercontent.com/55047333/215684406-55f2b4b7-7173-4d78-aae6-198146eae346.png)
+
 
 The HTML code you provided is a basic website template that includes a header, a section for service icons, and a subscribe section.
 
@@ -17,3 +18,7 @@ Use AWS CodeDeploy to deploy the code to an EC2 instance or an S3 bucket.
 Use AWS CloudFormation to automate the creation and management of the resources required for the pipeline.
 
 By using this pipeline, you can automate the process of deploying your website, reducing the time and effort required to manually deploy updates. Additionally, the pipeline can be configured to automatically deploy updates whenever changes are made to the code, ensuring that your website is always up-to-date.
+
+
+
+![image](https://user-images.githubusercontent.com/55047333/215684406-55f2b4b7-7173-4d78-aae6-198146eae346.png)
