@@ -21,4 +21,5 @@ By using this pipeline, you can automate the process of deploying your website, 
 
 
 
+
 ![image](https://user-images.githubusercontent.com/55047333/215684406-55f2b4b7-7173-4d78-aae6-198146eae346.png)
