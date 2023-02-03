@@ -30,12 +30,15 @@ By using this pipeline, you can automate the process of deploying your website, 
 It should have all the necessary permission to host the static website. Like, Static Hosting should be enable, Bucket should have public access and providing the Access Control List (ACL) permission to the owner. 
 
 1. Static Hosting:
+  
   Static hosting refers to hosting a website that consists of only static content, such as HTML, CSS, and JavaScript files. Static hosting provides a simple and cost-   effective way to host a website, and it can be easily scaled to handle traffic spikes.
 
 2. Bucket with Public Access:
+   
    Bucket is a term used in cloud storage services like Amazon S3 to refer to a container for storing files. To host a static website, the bucket must have public        access enabled. This means that anyone with the URL of a file stored in the bucket can access it without any authentication.
 
 3. Access Control List (ACL) Permission:
+   
    An Access Control List (ACL) is a set of rules that specify who has access to a particular resource, such as a bucket in Amazon S3. The ACL defines the permissions    that are assigned to the bucket owner, such as read, write, and execute permissions. Providing the ACL permission to the owner ensures that they have the necessary    access to manage the files stored in the bucket, such as uploading and deleting files.
 
 In summary, to host a static website using a cloud storage service like Amazon S3, it is necessary to enable Static Hosting, provide public access to the bucket, and provide the ACL permission to the owner. These steps ensure that the website is hosted correctly and that the owner has the necessary access to manage the files stored in the bucket.
