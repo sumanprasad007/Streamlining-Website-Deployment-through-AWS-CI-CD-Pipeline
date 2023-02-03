@@ -19,6 +19,15 @@ Use AWS CloudFormation to automate the creation and management of the resources 
 
 By using this pipeline, you can automate the process of deploying your website, reducing the time and effort required to manually deploy updates. Additionally, the pipeline can be configured to automatically deploy updates whenever changes are made to the code, ensuring that your website is always up-to-date.
 
+# CodeBuild Role should have follwoing:
+
+1. S3FullAccess
+2. CloudWatchFullAccess
+3. CodeBuildAccess
+
+# S3 Destination Bucket
+
+It should have all the necessary permission to host the static website. Like, Static Hosting should be enable, Bucket should have public access and providing the Access Control List (ACL) permission to the owner. 
 
 # BuildSpce file Details
 
