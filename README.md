@@ -20,6 +20,8 @@ Use AWS CloudFormation to automate the creation and management of the resources 
 By using this pipeline, you can automate the process of deploying your website, reducing the time and effort required to manually deploy updates. Additionally, the pipeline can be configured to automatically deploy updates whenever changes are made to the code, ensuring that your website is always up-to-date.
 
 
+# BuildSpce file Details
 
+Its the file which, AWS CodeBuild directly access and according to the steps of commands defined in the file CodeBuild starts the execution. This commands can be any AWS CLI based command, Linux based commands. It's more like, launch a Linux OS installing all the dependencies and running as a container, where provides root privileged based terminal to execute the commands and get the work done! 
 
 ![image](https://user-images.githubusercontent.com/55047333/215684406-55f2b4b7-7173-4d78-aae6-198146eae346.png)
