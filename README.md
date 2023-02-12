@@ -9,13 +9,13 @@ The header includes a logo, a title, and a brief description of the website. The
 
 # Here's how you can set up the pipeline:
 
-Store the website code in an AWS CodeCommit repository.
+🔹 Store the website code in an AWS CodeCommit repository.
 
-Use AWS CodeBuild to build and test the code.
+🔹 Use AWS CodeBuild to build and test the code.
 
-Use AWS CodeDeploy to deploy the code to an EC2 instance or an S3 bucket.
+🔹 Use AWS CodeDeploy to deploy the code to an EC2 instance or an S3 bucket.
 
-Use AWS CloudFormation to automate the creation and management of the resources required for the pipeline.
+🔹 Use AWS CloudFormation to automate the creation and management of the resources required for the pipeline.
 
 By using this pipeline, you can automate the process of deploying your website, reducing the time and effort required to manually deploy updates. Additionally, the pipeline can be configured to automatically deploy updates whenever changes are made to the code, ensuring that your website is always up-to-date.
 
