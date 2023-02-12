@@ -46,4 +46,4 @@ Its the file which, AWS CodeBuild directly access and according to the steps of 
 
 ![image](https://user-images.githubusercontent.com/55047333/215684406-55f2b4b7-7173-4d78-aae6-198146eae346.png)
 
-Note: S3 bucket is good option to host our static Website, as it's cheap and it's highly
+Note: S3 bucket is good option to host our static Website, as it's cheap and it's highly available and reliable...
