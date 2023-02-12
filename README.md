@@ -1,6 +1,6 @@
 # Streamlining Website Deployment through AWS CI/CD Pipeline
 
-# Architecutural Diagram
+# 📍 Architecutural Diagram:
 ![Architecture of AWS CodePiple for Website deployed in S3](https://user-images.githubusercontent.com/55047333/216131323-62a967fc-0c65-4394-9864-7ec6b3de025d.png)
 
 
