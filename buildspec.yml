@@ -11,4 +11,6 @@ phases:
     - echo "Deploying to S3 Bucket"
 artifacts:
   files:
-    - '**/*'
+    - '**/*' 
+    # ** : means include directory and it's sub-diretories & /* means include all the files within all the directories
+    
