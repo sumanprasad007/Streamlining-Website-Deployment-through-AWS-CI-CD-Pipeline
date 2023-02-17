@@ -15,3 +15,4 @@ hooks:
     - location: scripts/start_nginx.sh
       timeout: 300
       runtime: root
+
