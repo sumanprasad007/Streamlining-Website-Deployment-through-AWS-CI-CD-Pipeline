@@ -55,4 +55,5 @@ Note: S3 bucket is good option to host our static Website, as it's cheap and it'
 1. Great way to host static website
 2. Very cost-effective
 3. User Friendly
-4. 
+4. Easy to setu & Follow with avialable tutorials 
+5. 
