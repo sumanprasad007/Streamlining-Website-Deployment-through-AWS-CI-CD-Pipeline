@@ -7,7 +7,7 @@ files:
 
 hooks:
   BeforeInstall:
-    - location: scripts/install_nginx.sh
+    - location: scripts/install_nginx.sh 
       timeout: 300
       runtime: root
   
