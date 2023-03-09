@@ -4,7 +4,7 @@ version: 0.2
 phases:
   build:
     commands:
-    - echo "Building the phase... Zipping the website"
+    - echo "Building the phase... Zipping the websites"
  
   post_build:
     commands:
