@@ -21,5 +21,4 @@ jobs:
 
       - name: Sync Website Deployment to S3 bucket
         run: |
-          aws s3 cp index.html s3://www.myproject.in/index.html
-          aws s3 cp error.html s3://www.myproject.in/error.html
+          aws s3 cp index.html http://hosting-static-website-using-github-action.s3-website-us-east-1.amazonaws.com
